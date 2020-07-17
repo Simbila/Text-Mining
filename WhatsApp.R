@@ -93,6 +93,6 @@
       set.seed(123)
       wordcloud(words = chat_df$words, freq = chat_df$n, min.freq = 1,
                 max.words = 3000, random.order = FALSE, rot.per = 0.2,
-                colors = brewer.pal(8, "Dark2"))
+                colors = brewer.pal(8, "Dark2")) 
       
     
